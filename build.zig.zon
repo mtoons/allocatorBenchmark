@@ -1,0 +1,15 @@
+.{
+    .name = "allocatorBenchmark",
+    .version = "0.0.0",
+    .paths = .{
+        "src",
+        "build.zig",
+        "build.zig.zon",
+    },
+    .dependencies = .{
+        .zimalloc = .{
+            .url = "https://github.com/dweiller/zimalloc/archive/29bb1938e3314b3de554b1be922cb234ba958c86.tar.gz",
+            .hash = "1220049c31fcb586a5092a819d58778b7093c5462d1dc39b5dbe6af203f5c3f72c2e",
+        },
+    },
+}
